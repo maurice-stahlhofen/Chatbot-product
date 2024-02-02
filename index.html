@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Chatbot</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" 
+    rel="stylesheet" />
+</head>
+<body>
+    <div class="chatbot">
+        <header>
+            <i id="deleteChat-btn" class="material-symbols-outlined">delete</i>
+            <i id="closeChatBtn" class="material-symbols-outlined">exit_to_app</i>
+            <h2>Chatbot</h2>
+        </header>
+        <div class="chat">
+            <ul class="chatbox"> <!--Will be changed by js automatically. 
+                Still here for Comprehension reason-->
+            <!--<li class="chat incoming">
+                    <span class="material-symbols-outlined">smart_toy</span>
+                    <p>Hi <br>How Can I help you?</p>
+                </li>
+                <li class="chat outgoing">
+                    <p></p>
+                </li>-->
+            </ul>
+            <div class="chat-input">
+                <textarea id="txtContent" placeholder="Schreibe eine Nachricht" required></textarea>
+                <span id="send-btn" class="material-symbols-outlined">send</span>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
