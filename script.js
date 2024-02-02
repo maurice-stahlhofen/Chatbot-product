@@ -18,7 +18,7 @@ let product = [];
 let isFirstMessage = true;
 
 //Enter API key from .env file here or use your own. Costs money!!!!
-const API_KEY = "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";
+const API_KEY = "";
 const FILE_PATH = './fineTune.json';
 
 const formData = new FormData();
